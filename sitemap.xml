@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    
+
+<url>
+  <loc>http://tatuazhkiev.com.ua/</loc>
+  <lastmod>2014-06-17T13:44:09+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/index.html</loc>
+  <lastmod>2014-06-17T13:44:09+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/foto-tatuazh.html</loc>
+  <image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/1b-brovi.jpg</image:loc> 
+  </image:image>
+  <image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/2b-brovi.jpg</image:loc> 
+  </image:image>
+  <image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/3b-brovi.jpg</image:loc> 
+  </image:image>
+  <lastmod>2014-06-17T13:51:54+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/ceni.html</loc>
+  <lastmod>2014-06-14T22:20:02+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/otzivi.html</loc>
+  <lastmod>2014-06-14T22:20:45+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/akcii.html</loc>
+  <lastmod>2014-06-14T22:20:02+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/kontakti.html</loc>
+  <lastmod>2014-06-14T22:20:45+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/foto-tatuazh-gub.html</loc>
+  <lastmod>2014-06-17T14:05:35+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+	<image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/1b-gubi.jpg</image:loc> 
+	</image:image>
+	<image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/2b-gubi.jpg</image:loc> 
+    </image:image>
+	<image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/3b-gubi.jpg</image:loc> 
+    </image:image>
+</url>
+<url>
+  <loc>http://tatuazhkiev.com.ua/foto-tatuazh-glaz.html</loc>
+  <lastmod>2014-06-17T14:05:12+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+	<image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/1b-glaza.jpg</image:loc> 
+	</image:image>
+	<image:image>
+       <image:loc>http://tatuazhkiev.com.ua/images/photo/big/2b-glaza.jpg</image:loc> 
+    </image:image>	
+</url>
+</urlset>
