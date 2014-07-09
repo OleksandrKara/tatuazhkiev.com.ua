@@ -40,6 +40,11 @@ a.moveup {
 	line-height:16px;
 }
 
+a.moveup {
+	line-height:16px;
+	color:#bf96c7;	
+}
+
 .link {
 	color:#bf96c7;
 	text-decoration:underline;
