@@ -24,9 +24,10 @@ $msg .= "<p><strong>Message:</strong> ".$name."</p>\r\n";
 $msg .= "</body></html>";
 
 
+$success = mail( "kiev.tatuazh@gmail.com", $subject, $msg, $headers );
 
 //Sending
-if(mail( $sendto, $subject, $msg, $headers )) {
+if($success ) {
 	echo "true";
 } else {
 	echo "false";
