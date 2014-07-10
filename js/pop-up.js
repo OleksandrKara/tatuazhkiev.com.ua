@@ -38,7 +38,7 @@
 				
 				$.ajax({
 					type: 'POST',
-					url: 'http://localhost:8888/send_mail/',
+					url: 'sendmessage.php',
 					crossDomain: true,
 					data: $("#contact").serialize(),
 					success: function(data) {
