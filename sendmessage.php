@@ -2,7 +2,9 @@
 <?php
 
 // Define some constants
-$sendto   = "kiev.tatuazh@gmail.com";
+define( "RECIPIENT_EMAIL", "kiev.tatuazh@gmail.com" );
+define( "RECIPIENT_NAME", "Анна Кара" );
+$recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
 $subject  = "Call me back";
 
 // Read the form values
@@ -24,7 +26,7 @@ $msg .= "<p><strong>Message:</strong> ".$name."</p>\r\n";
 $msg .= "</body></html>";
 
 
-$success = mail( "kiev.tatuazh@gmail.com", $subject, $msg, $headers );
+$success = mail( $recipient, $subject, $msg, $headers );
 
 //Sending
 if($success ) {
