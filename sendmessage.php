@@ -2,8 +2,8 @@
 <?php
 
 // Define some constants
-define( "RECIPIENT_EMAIL", "kiev.tatuazh@gmail.com" );
-define( "RECIPIENT_NAME", "Анна Кара" );
+define( "RECIPIENT_EMAIL", "Oleksandr_Kara@epam.com" );
+define( "RECIPIENT_NAME", "Oleksandr Kara" );
 $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
 $subject  = "Call me back";
 
