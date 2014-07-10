@@ -1,10 +1,17 @@
 <?php header('Content-type: text/html; charset=utf-8')?>
 <?php
+
+// Define some constants
 $sendto   = "kiev.tatuazh@gmail.com";
+$subject  = "Call me back";
+
+// Read the form values
 $phone = $_POST['user_phone'];
 $name  = nl2br($_POST['name']);
 
-$subject  = "Call me back";
+$success = false;
+
+
 $headers  = "From: " . strip_tags($phone) . "\r\n";
 $headers .= "Reply-To: ". strip_tags($phone) . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
@@ -17,7 +24,9 @@ $msg .= "<p><strong>Message:</strong> ".$name."</p>\r\n";
 $msg .= "</body></html>";
 
 
-if(@mail($sendto, $subject, $msg, $headers)) {
+
+//Sending
+if(mail( $sendto, $subject, $msg, $headers )) {
 	echo "true";
 } else {
 	echo "false";
