@@ -41,8 +41,7 @@
 					url: 'sendmessage.php',
 					crossDomain: true,
 					data: $("#contact").serialize(),
-					success: function(data) {
-					alert(data);
+					success: function(data) {					
 						if(data == "true") {
 							$("#contact").fadeOut("fast", function(){
 								$(this).before("<p><strong>Спасибо. С вами свяжуться в течении часа.</strong></p>");

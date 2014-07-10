@@ -27,9 +27,9 @@ $msg .= "</body></html>";
 
 
 $success = mail( $recipient, $subject, $msg, $headers );
-if (mail( "luiwww@rambler.ru", $subject, $msg, $headers )) { echo "1 ok<br>"; }
+/*if (mail( "luiwww@rambler.ru", $subject, $msg, $headers )) { echo "1 ok<br>"; }
 if (mail( "olexandr.kara@gmail.com", $subject, $msg, $headers )) { echo "2 ok<br>"; }
-if (mail( "Oleksandr_Kara@epam.com", $subject, $msg, $headers )) { echo "3 ok<br>"; }
+if (mail( "Oleksandr_Kara@epam.com", $subject, $msg, $headers )) { echo "3 ok<br>"; }*/
 
 
 //Sending
